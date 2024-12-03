@@ -162,4 +162,4 @@ cython_debug/
 #.idea/
 
 fine_tune/runs
-yolo-plate.v4i.yolov11
+dataset
