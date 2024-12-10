@@ -20,7 +20,7 @@ GOT-OCR2_0, a pretrained OCR model from Hugging Face, extracts text from the pro
 - High-precision bounding box generation
 
 #### Training Configuration
-![alt text](fine_tune/runs/detect/train3/train_batch0.jpg)
+![alt text](train_batch0.jpg)
 - Model Summary: 238 layers, 2,582,347 parameters
 - Performance Metrics:
   - Precision: 0.999
@@ -28,7 +28,7 @@ GOT-OCR2_0, a pretrained OCR model from Hugging Face, extracts text from the pro
   - mAP50: 0.995
   - mAP50-95: 0.864
 
-![alt text](fine_tune/runs/detect/train3/results.png)
+![alt text](results.png)
 
 ### 2. Image Preprocessing with OpenCV
 
