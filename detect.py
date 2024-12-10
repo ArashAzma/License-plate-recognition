@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("./fine_tune/bounding_box.pt")
+model = YOLO("./fine_tune/bounding_box_10.pt")
 
 def getBoundingBox(image_path, confidence=0.8):
     result = model.predict(image_path)
