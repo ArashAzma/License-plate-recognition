@@ -7,7 +7,7 @@ model = AutoModel.from_pretrained('ucaslcl/GOT-OCR2_0', trust_remote_code=True, 
 model = model.eval().cuda()
 
 def apply_ocr(image, ocr_type='ocr', **kwargs):
-    image_path = save_temp_image(image)
+    image_path = save_temp_image(image, "./image_temp.png")
     try:
         result = model.chat(tokenizer, image_path, ocr_type=ocr_type, **kwargs)
     finally:
